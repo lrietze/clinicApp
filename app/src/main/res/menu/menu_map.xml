@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="clinic.ljm.com.spaghetti.MapActivity">
+    <item
+        android:id="@+id/viewList"
+        android:title="@string/view_list"
+        android:icon="@drawable/list_icon"
+        android:showAsAction="ifRoom" />
+</menu>

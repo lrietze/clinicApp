@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        DEBUG {
+            keyAlias 'debug'
+            keyPassword 'teamjeff'
+            storeFile file('DEBUG.jks')
+            storePassword 'teamjeff'
+        }
+    }
+    compileSdkVersion 21
+    buildToolsVersion "21.1.1"
+    defaultConfig {
+        applicationId "clinic.ljm.com.spaghetti"
+        minSdkVersion 21
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            signingConfig signingConfigs.DEBUG
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/autobahn-0.5.0.jar')
+    compile files('libs/jackson-core-asl-1.9.7.jar')
+    compile 'com.android.support:recyclerview-v7:21.0.0'
+    compile 'com.google.android.gms:play-services:6.1.+'
+}

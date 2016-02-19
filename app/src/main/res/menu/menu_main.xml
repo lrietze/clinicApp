@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/addClinic"
+        android:title="@string/add_clinic"
+        android:icon="@drawable/plus_icon"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/viewMap"
+        android:title="@string/view_map"
+        android:icon="@drawable/globe_icon"
+        android:showAsAction="ifRoom" />
+</menu>

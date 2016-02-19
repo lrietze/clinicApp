@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:background="@drawable/list_item_bg">
+
+    <TextView
+        android:id="@+id/list_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        style="@style/TextFontStyle" />
+
+    <clinic.ljm.com.spaghetti.ClinicButton
+        android:id="@+id/list_count"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        style="@style/ButtonFontStyle" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spaghetti</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_add_clinic">AddClinicActivity</string>
+    <string name="add_clinic">Add Clinic</string>
+    <string name="view_map">View Map</string>
+    <string name="view_list">View List</string>
+    <string name="map_title">Spaghetti</string>
+    <string name="gps_wait_message">Currently waiting for GPS lock...</string>
+
+</resources>
